@@ -1,0 +1,15 @@
+docdb:
+    source:  "https://github.com/b56-clouddevops/tf-module-docdb.git"
+    version: "main"
+
+# rds:
+#     source:  "https://github.com/b56-clouddevops/tf-module-rds.git"
+#     version: "main"
+
+# elasticcache:
+#     source:  "https://github.com/b56-clouddevops/tf-module-elasticcache.git"
+#     version: "main"
+
+# rabbitmq:
+#     source:  "https://github.com/b56-clouddevops/tf-module-rabbitmq.git"
+#     version: "main"
