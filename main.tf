@@ -9,7 +9,7 @@ module "mysql" {
   source              = "./vendor/modules/mysql"
 
   ENV                 = var.ENV
-  DOCDB_PORT          = var.MYSQL_PORT
+  MYSQL_PORT          = var.MYSQL_PORT
 }
 
 # We cannot parametrize anything that's added n the source.
