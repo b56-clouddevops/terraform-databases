@@ -1,4 +1,4 @@
 variable "ENV" {}
 
 # Document DB Variables
-variable "DOCDB_PORT" {}
+variable "MYSQL_PORT" {}
