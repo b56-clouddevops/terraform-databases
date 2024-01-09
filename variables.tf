@@ -8,7 +8,6 @@ variable "DOCDB_ENGINE" {}
 
 # MYSQL DB Variables
 variable "MYSQL_PORT" {}
-variable "ENV" {}
 variable "MYSQL_FAMILY" {}
 variable "MYSQL_STORAGE" {}
 variable "MYSQL_ENGINE" {}
