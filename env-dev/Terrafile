@@ -10,6 +10,6 @@ elasticcache:
     source:  "https://github.com/b56-clouddevops/tf-module-redis.git"
     version: "main"
 
-# rabbitmq:
-#     source:  "https://github.com/b56-clouddevops/tf-module-rabbitmq.git"
-#     version: "main"
+rabbitmq:
+    source:  "https://github.com/b56-clouddevops/tf-module-rabbitmq.git"
+    version: "main"

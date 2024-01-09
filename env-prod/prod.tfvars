@@ -20,3 +20,7 @@ REDIS_ENGINE            = "cache.t3.medium"
 REDIS_INSTANCE_COUNT    = 3
 REDIS_ENGINE_VERSION    = "6.x"
 REDIS_ENGINE_FAMILY     = "redis6.x"
+
+# RABBITMQ Variables
+RABBITMQ_PORT_NUMBER    = 5672
+RABBITMQ_INSTANCE_TYPE  = "t3.micro"
