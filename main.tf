@@ -16,11 +16,17 @@ module "mysql" {
 }
 
 module "redis" {
-  source              = "./vendor/modules/elasticcache"
+  source               = "./vendor/modules/elasticcache"
 
-  ENV                 = var.ENV
-  REDIS_PORT          = var.REDIS_PORT
+  ENV                  = var.ENV
+  REDIS_PORT           = var.REDIS_PORT
+  REDIS_ENGINE         = var.REDIS_ENGINE
+  REDIS_ENGINE_FAMILY  = var.REDIS_ENGINE_FAMILY
+  REDIS_ENGINE_VERSION = var.REDIS_ENGINE_VERSION
+  REDIS_INSTANCE_COUNT = var.REDIS_INSTANCE_COUNT
+
 }
+
 
 # We cannot parametrize anything that's added n the source.
 # To limit that, we can use a tool called as Terrafile. All it does is clonnes the remote code from the specified branch and make it locally available.
