@@ -2,6 +2,9 @@ variable "ENV" {}
 
 # Document DB Variables
 variable "DOCDB_PORT" {}
+variable "DOCDB_INSTANCE_TYPE" {}
+variable "DOCDB_INSTANCE_COUNT" {}
+variable "DOCDB_ENGINE" {}
 
 # MYSQL DB Variables
 variable "MYSQL_PORT" {}
