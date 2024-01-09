@@ -14,5 +14,4 @@ REDIS_PORT              = 6379
 REDIS_ENGINE            = "cache.t3.micro"
 REDIS_INSTANCE_COUNT    = 1
 REDIS_ENGINE_VERSION    = "6.x"
-REDIS_PORT              = 6379
 REDIS_ENGINE_FAMILY     = "redis6.x"

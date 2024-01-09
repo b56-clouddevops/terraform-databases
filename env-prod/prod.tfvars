@@ -14,5 +14,4 @@ REDIS_PORT              = 6379
 REDIS_ENGINE            = "cache.t3.medium"
 REDIS_INSTANCE_COUNT    = 3
 REDIS_ENGINE_VERSION    = "6.x"
-REDIS_PORT              = 6379
 REDIS_ENGINE_FAMILY     = "redis6.x"
