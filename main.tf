@@ -9,11 +9,17 @@ module "docdb" {
 }
 
 module "mysql" {
-  source              = "./vendor/modules/mysql"
+  source                = "./vendor/modules/mysql"
 
-  ENV                 = var.ENV
-  MYSQL_PORT          = var.MYSQL_PORT
+  ENV                   = var.ENV
+  MYSQL_PORT            = var.MYSQL_PORT
+  MYSQL_STORAGE         = var.MYSQL_STORAGE
+  MYSQL_ENGINE          = var.MYSQL_ENGINE
+  MYSQL_FAMILY          = var.MYSQL_FAMILY
+  MYSQL_ENGINE_VERSION  = var.MYSQL_ENGINE_VERSION
+  MYSQL_ENGINE_TYPE     = var.MYSQL_ENGINE_TYPE
 }
+
 
 module "redis" {
   source               = "./vendor/modules/elasticcache"
@@ -24,7 +30,6 @@ module "redis" {
   REDIS_ENGINE_FAMILY  = var.REDIS_ENGINE_FAMILY
   REDIS_ENGINE_VERSION = var.REDIS_ENGINE_VERSION
   REDIS_INSTANCE_COUNT = var.REDIS_INSTANCE_COUNT
-
 }
 
 
