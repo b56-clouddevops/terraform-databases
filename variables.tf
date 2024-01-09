@@ -7,4 +7,4 @@ variable "DOCDB_PORT" {}
 variable "MYSQL_PORT" {}
 
 # REDIS Variables
-# variable "REDIS_PORT" {}
+variable "REDIS_PORT" {}
