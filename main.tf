@@ -40,6 +40,9 @@ module "rabbitmq" {
   RABBITMQ_INSTANCE_TYPE = var.RABBITMQ_INSTANCE_TYPE
 }
 
+output "redis_op" {
+  value = module.redis.redis_op
+}
 
 # We cannot parametrize anything that's added n the source.
 # To limit that, we can use a tool called as Terrafile. All it does is clonnes the remote code from the specified branch and make it locally available.
